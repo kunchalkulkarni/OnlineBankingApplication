@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>StartPageServlet</display-name>
+    <servlet-name>StartPageServlet</servlet-name>
+    <servlet-class>com.controller.StartPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StartPageServlet</servlet-name>
+    <url-pattern>/StartPageServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
